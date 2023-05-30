@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Grenze+Gotisch&family=Lemon&family=Lexend+Zetta&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mogra&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url(./reset.css);
+
+
+body {
+    background: #E5E5E5;
+
+}
+
+.container {
+    width: 483px;
+    height: 886px;
+    margin: 80px auto;
+    font-family: 'Mulish', sans-serif;
+    background-color: white;
+    padding: 56px;
+    box-shadow: 0px 4px 65px rgba(84, 96, 200, 0.17);
+    border-radius: 24px;
+    position: relative;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    width: 470px;
+    height: 902px;
+    left: -59px;
+    top: -58px;
+    background: #4471F5;
+    border-radius: 24px;
+    z-index: -1;
+}
+
+.div1>h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #172039;
+    margin-bottom: 16px;
+}
+
+.spanDiv :nth-child(8) {
+    color: #747988;
+}
+
+.spanDiv span figure {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.spanDiv span figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.spanDiv .spanDiv-p {
+    margin-top: 24px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+    color: #172039;
+    margin-bottom: 24px;
+}
+
+.div1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    width: 371px;
+    height: 56px;
+    background: #F5F6FF;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.div1-2 .div1-2_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40px;
+    width: 185.5px;
+    align-self: center;
+    border-radius: 13px;
+
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    width: 371px;
+    height: 52px;
+    padding: 10px;
+    border: 1px solid #D7D9E8;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.div2 figure {
+    width: 32px;
+    height: 32px;
+}
+
+.div2 figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.divInput {
+    flex-grow: 1;
+}
+
+.divInput #divInput {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 369px;
+    height: 180px;
+    border: 1px solid #D7D9E8;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.div3-firstChild :first-child {
+    /* font-size: 18px; */
+    color: #172039;
+    margin-bottom: 8px;
+}
+
+.div3-firstChild :nth-child(2) {
+    margin-bottom: 8px;
+}
+
+.div3-firstChild :nth-child(3) {
+    font-size: 14px;
+    color: #747988;
+    margin-bottom: 16px;
+}
+
+.div3 .btn {
+    width: 337px;
+    height: 55px;
+    background: #4571F5;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 369px;
+    height: 260px;
+}
+
+.div4 .div4-firstChild>p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #747988;
+    margin-bottom: 16px;
+}
+
+.div4-firstChild>.div4-childDiv {
+    padding: 16px;
+    width: 369px;
+    height: 109px;
+    border: 1px solid #D7D9E8;
+    border-radius: 16px;
+}
+
+.div4-childDiv :first-child {
+    font-size: 18px;
+    line-height: 23px;
+    color: #172039;
+    margin-bottom: 8px;
+}
+
+.div4-childDiv :nth-child(2) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #172039;
+    margin-bottom: 8px;
+}
+
+.div4-childDiv :nth-child(3) {
+    font-size: 14px;
+    line-height: 18px;
+    color: #747988;
+}
+
+.div4-secondChild {
+    margin-bottom: 8px;
+}
